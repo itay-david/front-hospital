@@ -56,6 +56,7 @@ const Auth = () => {
         <div className="auth__form-container">
             <div className="auth__form-container_fields">
                 <div className="auth__form-container_fields-content">
+                    <p>Made by Itay David & Osher Orvitz</p>
                     <p>{isSignup ? 'Sign Up' : 'Sign In'}</p>
                     <form onSubmit={handleSubmit}>
                         {isSignup && (
